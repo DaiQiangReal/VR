@@ -3,5 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "daiqiang",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --sourcemap --outfile=dist/out.js"
+  },
+  "devDependencies": {
+    "@tweenjs/tween.js": "^18.6.4",
+    "@types/three": "^0.127.1",
+    "esbuild": "^0.11.17",
+    "three": "^0.128.0",
+    "webvr-polyfill": "^0.10.12"
+  },
+  "dependencies": {}
 }
